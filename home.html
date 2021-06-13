@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="keywords" content=""> 
+        <style>
+          body {
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+              background-color: lightsteelblue;
+          }
+
+          .header {
+              overflow: hidden;
+              background-color: #f1f1f1;
+              padding: 20px 10px;
+          }
+
+          .header a {
+             float: left;
+             color:black;
+             text-align: center;
+             padding: 12px;
+             text-decoration: none;
+             font-size: 18px;
+             line-height: 25px;
+             border-radius: 4px;
+          }
+
+           .header a.name {
+               font-size: 25px;
+               font-weight: bold;
+               text-align: center;
+           }
+            
+            .header a.active {
+                background-color: dodgerblue;
+            }
+             
+            .header a:hover {
+                background-color: #dddddd;
+                color: black;
+            }
+
+            .header-right {
+                float: right;
+            }
+
+            @media screen and (max-width: 500px){
+                .header a{
+                    float: none;
+                    display: block;
+                    text-align: center;
+                }
+
+                .header-right {
+                    float: none;
+                }
+                
+            }
+
+            .image-right {
+                float: right;
+               pain
+            }
+        </style>
+    </head>
+    <body>
+    <div class="header">
+      <a href="#" class="name">Sathishkumar M</a>
+      <div class="header-right">
+          <a class="active" href="#tutorial">Tutorial</a>
+          <a href="#">Contact</a>
+          <a href="#About">About</a>
+      </div>
+    </div>
+    <main class="main-content">
+        <section class="objective">
+            <div class="image-right">
+                <img src="E:\tutorial\react\workouts\tutorialspoint\aboutme\image\sathish.jpg">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; sathishkumar</p>
+        <address>
+            <a href="mailto:sathiskiot@gmail.com">sathiskiot@gmail.com</a>
+        </address>
+    </footer>
+</body>
+</html>
